@@ -8,3 +8,4 @@ test("Step 1 - login to mail", async ({ page }) => {
     await page.locator("#Password").fill("sEepqTaxB8P5@qw");
     await page.locator('[value="Enter"]').click();
 });
+// new branch
